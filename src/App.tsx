@@ -9,7 +9,7 @@ import ComparisonSection from "./sections/ComparisonSection";
 import TechnologiesSection from "./sections/TechnologiesSection";
 import FAQSection from "./sections/FAQSection";
 import FinalCTASection from "./sections/FinalCTASection";
-
+import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
@@ -23,21 +23,24 @@ function App() {
       {/* Benefits */}
       <BenefitsSection />
       {/* PROBLEM */}
-      <ProblemSection/>
+      <ProblemSection />
       {/* SOLUTION */}
-      <SolutionSection/>
+      <SolutionSection />
       {/* FEATURES */}
-      <FeaturesSection/>
+      <FeaturesSection />
       {/* HOW IT WORKS */}
-      <StepsWorksSection/>
+      <StepsWorksSection />
       {/* COMPARISON */}
-      <ComparisonSection/>
+      <ComparisonSection />
       {/* SUPPORTED TECHNOLOGIES */}
-      <TechnologiesSection/>
+      <TechnologiesSection />
       {/* FAQ */}
-      <FAQSection/>
+      <FAQSection />
       {/* FINAL CTA */}
-      <FinalCTASection/>
+      <FinalCTASection />
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }
