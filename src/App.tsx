@@ -7,6 +7,7 @@ import FeaturesSection from "./sections/FeaturesSection";
 import StepsWorksSection from "./sections/StepsWorksSection";
 import ComparisonSection from "./sections/ComparisonSection";
 import TechnologiesSection from "./sections/TechnologiesSection";
+import FAQSection from "./sections/FAQSection";
 
 import "./index.css";
 
@@ -32,6 +33,8 @@ function App() {
       <ComparisonSection/>
       {/* SUPPORTED TECHNOLOGIES */}
       <TechnologiesSection/>
+      {/* FAQ */}
+      <FAQSection/>
     </main>
   );
 }
