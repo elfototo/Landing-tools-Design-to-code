@@ -4,6 +4,7 @@ import BenefitsSection from "./sections/BenefitsSection";
 import ProblemSection from "./sections/ProblemSection";
 import SolutionSection from "./sections/SolutionSection";
 import FeaturesSection from "./sections/FeaturesSection";
+import StepsWorksSection from "./sections/StepsWorksSection";
 
 import "./index.css";
 
@@ -23,6 +24,9 @@ function App() {
       <SolutionSection/>
       {/* FEATURES */}
       <FeaturesSection/>
+      {/* HOW IT WORKS */}
+      <StepsWorksSection/>
+
     </main>
   );
 }
