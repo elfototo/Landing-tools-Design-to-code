@@ -8,6 +8,7 @@ import StepsWorksSection from "./sections/StepsWorksSection";
 import ComparisonSection from "./sections/ComparisonSection";
 import TechnologiesSection from "./sections/TechnologiesSection";
 import FAQSection from "./sections/FAQSection";
+import FinalCTASection from "./sections/FinalCTASection";
 
 import "./index.css";
 
@@ -35,6 +36,8 @@ function App() {
       <TechnologiesSection/>
       {/* FAQ */}
       <FAQSection/>
+      {/* FINAL CTA */}
+      <FinalCTASection/>
     </main>
   );
 }
