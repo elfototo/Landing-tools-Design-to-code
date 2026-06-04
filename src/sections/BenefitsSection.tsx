@@ -40,13 +40,15 @@ export default function BenefitsSection() {
     },
   ];
   return (
-    <section className="flex flex-col gap-10">
-      <h2>Benefits</h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
+    <section className="relative flex flex-col gap-10">
+      <h2 className="z-10">Benefits</h2>
+
+      <div className="relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 z-10">
         {benefits.map((item) => (
           <Benefit key={item.id} title={item.title} content={item.content} />
         ))}
       </div>
+
     </section>
   );
 }
