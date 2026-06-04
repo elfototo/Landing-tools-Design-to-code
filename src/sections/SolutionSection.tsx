@@ -1,4 +1,5 @@
 import { BsEmojiLaughingFill } from "react-icons/bs";
+import solveImage from "../assets/444.png";
 
 type SolutionsType = {
   id: number;
@@ -27,8 +28,13 @@ export default function SolutionSection() {
   return (
     <section className="flex flex-col gap-10">
       <h2>Solutions</h2>
-      <div className="flex flex-col-reverse gap-3 md:items-center md:flex-row">
-        <div className="md:w-[50%] w-full h-[300px] bg-[#848484]"></div>
+      <div className="flex flex-col-reverse gap-5 md:gap-3 md:items-center md:flex-row md:justify-between">
+        {/* <div className="md:w-[50%] w-full h-[300px] bg-[#848484]"></div> */}
+         <img
+          src={solveImage}
+          alt="Problem illustration"
+          className="w-[350px] h-auto object-contain mx-auto"
+        />
         <div className="text-start md:w-[50%] flex flex-col gap-3">
           <h3 className="font-bold text-2xl">Built around layout structure</h3>
 
