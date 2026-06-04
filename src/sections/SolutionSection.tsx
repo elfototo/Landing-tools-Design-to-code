@@ -33,9 +33,9 @@ export default function SolutionSection() {
          <img
           src={solveImage}
           alt="Problem illustration"
-          className="w-[350px] h-auto object-contain mx-auto"
+          className="w-[350px] h-auto object-contain mx-auto md:mx-0"
         />
-        <div className="text-start md:w-[50%] flex flex-col gap-3">
+        <div className="text-start flex flex-col gap-3 md:w-[50%]">
           <h3 className="font-bold text-2xl">Built around layout structure</h3>
 
           <ul className="flex flex-col gap-3">

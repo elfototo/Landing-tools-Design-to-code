@@ -21,8 +21,8 @@ export default function ProblemSection() {
   return (
     <section className="flex flex-col gap-10">
       <h2>Problem</h2>
-      <div className="flex gap-5 md:gap-3 flex-col md:flex-row md:justify-between md:items-center">
-        <div className="text-start flex flex-col gap-3 md:w-[50%] ">
+      <div className="flex gap-5 flex-col md:flex-row md:justify-between md:items-center">
+        <div className="text-start flex flex-col gap-3  md:w-[50%]">
           <h3 className="font-bold text-2xl ">
             Design-to-code should save time, not create more work
           </h3>
@@ -40,7 +40,7 @@ export default function ProblemSection() {
         <img
           src={problemImage}
           alt="Problem illustration"
-          className="md:w-[280px] w-[200px] h-auto object-contain mx-auto "
+          className="md:w-[280px] w-[200px] h-auto object-contain mx-auto md:mx-0"
         />
       </div>
     </section>
