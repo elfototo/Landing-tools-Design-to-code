@@ -40,10 +40,13 @@ export default function BenefitsSection() {
     },
   ];
   return (
-    <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
-      {benefits.map((item) => (
-        <Benefit key={item.id} title={item.title} content={item.content} />
-      ))}
+    <section className="flex flex-col gap-10">
+      <h2>Benefits</h2>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
+        {benefits.map((item) => (
+          <Benefit key={item.id} title={item.title} content={item.content} />
+        ))}
+      </div>
     </section>
   );
 }

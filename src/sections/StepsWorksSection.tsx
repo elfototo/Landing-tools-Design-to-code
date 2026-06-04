@@ -40,7 +40,9 @@ export default function StepsWorksSection() {
   ];
 
   return (
-    <section>
+    <section className="flex flex-col gap-10">
+      <h2>How it works</h2>
+
       <div className="flex flex-col gap-10">
         {steps.map((item) => (
           <StepWork

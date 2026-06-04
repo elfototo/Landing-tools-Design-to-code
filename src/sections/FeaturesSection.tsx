@@ -57,7 +57,8 @@ export default function FeaturesSection() {
     },
   ];
   return (
-    <section>
+    <section className="flex flex-col gap-10">
+      <h2>Features</h2>
       <div className="grid md:grid-cols-6 lg:gap-6 grid-cols-1 gap-3">
         {features.map((item) => (
           <Feature key={item.id} title={item.title} content={item.content} style={item.style}/>

@@ -18,18 +18,26 @@ export default function ProblemSection() {
     },
   ];
   return (
-    <section className="flex gap-3 flex-col md:flex-row md:items-center">
-      <div className="text-start flex flex-col gap-3 md:w-[50%] ">
-        <h3 className="font-bold text-2xl ">
-          Design-to-code should save time, not create more work
-        </h3>
-        <ul className="flex flex-col gap-3">
+    <section className="flex flex-col gap-10">
+      <h2>Problem</h2>
+      <div className="flex gap-3 flex-col md:flex-row md:items-center">
+        <div className="text-start flex flex-col gap-3 md:w-[50%] ">
+          <h3 className="font-bold text-2xl ">
+            Design-to-code should save time, not create more work
+          </h3>
+          <ul className="flex flex-col gap-3">
             {problem.map((item) => (
-                <li key={item.id} className="flex items-center gap-3"><span><BsEmojiFrownFill className="text-red-400" size={30}/></span>{item.content}</li>
+              <li key={item.id} className="flex items-center gap-3">
+                <span>
+                  <BsEmojiFrownFill className="text-red-400" size={30} />
+                </span>
+                {item.content}
+              </li>
             ))}
-        </ul>
+          </ul>
+        </div>
+        <div className="md:w-[500px] h-[300px] w-full bg-[#848484]"></div>
       </div>
-      <div className="md:w-[500px] h-[300px] w-full bg-[#848484]"></div>
     </section>
   );
 }

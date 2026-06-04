@@ -30,10 +30,13 @@ export default function ComparisonSection() {
   ];
 
   return (
-    <section>
-      <h2>More than visual reproduction</h2>
+    <section className="flex flex-col gap-10">
+      <div>
+        <h2 className="">Comparison</h2>
+        <p>More than visual reproduction</p>
+      </div>
 
-      <div className="grid gap-3 pt-10 grid-cols-1 lg:gap-10 sm:grid-cols-2">
+      <div className="grid gap-3 grid-cols-1 lg:gap-10 sm:grid-cols-2">
         {comparisons.map((item) => (
           <div
             key={item.title}

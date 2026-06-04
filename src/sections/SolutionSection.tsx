@@ -25,18 +25,24 @@ export default function SolutionSection() {
     },
   ];
   return (
-    <section className="flex flex-col-reverse gap-3 md:items-center md:flex-row">
-      <div className="md:w-[50%] w-full h-[300px] bg-[#848484]"></div>
-      <div className="text-start md:w-[50%] flex flex-col gap-3">
-        <h3 className="font-bold text-2xl">Built around layout structure</h3>
+    <section className="flex flex-col gap-10">
+      <h2>Solutions</h2>
+      <div className="flex flex-col-reverse gap-3 md:items-center md:flex-row">
+        <div className="md:w-[50%] w-full h-[300px] bg-[#848484]"></div>
+        <div className="text-start md:w-[50%] flex flex-col gap-3">
+          <h3 className="font-bold text-2xl">Built around layout structure</h3>
 
-        <ul className="flex flex-col gap-3">
-          {solutions.map((item) => (
-            <li key={item.id} className="flex gap-3 items-center">
-              <span><BsEmojiLaughingFill size={30} className="text-[#02D2B9]"/></span>
-              {item.content}</li>
-          ))}
-        </ul>
+          <ul className="flex flex-col gap-3">
+            {solutions.map((item) => (
+              <li key={item.id} className="flex gap-3 items-center">
+                <span>
+                  <BsEmojiLaughingFill size={30} className="text-[#02D2B9]" />
+                </span>
+                {item.content}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );
