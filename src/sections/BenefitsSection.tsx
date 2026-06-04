@@ -40,7 +40,7 @@ export default function BenefitsSection() {
     },
   ];
   return (
-    <section className="grid grid-cols-3 gap-3">
+    <section className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
       {benefits.map((item) => (
         <Benefit key={item.id} title={item.title} content={item.content} />
       ))}

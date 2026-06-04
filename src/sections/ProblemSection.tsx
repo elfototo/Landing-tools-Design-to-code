@@ -18,8 +18,8 @@ export default function ProblemSection() {
     },
   ];
   return (
-    <section className="flex items-center gap-3">
-      <div className="text-start w-[50%] flex flex-col gap-3">
+    <section className="flex gap-3 flex-col md:flex-row md:items-center">
+      <div className="text-start flex flex-col gap-3 md:w-[50%] ">
         <h3 className="font-bold text-2xl ">
           Design-to-code should save time, not create more work
         </h3>
@@ -29,7 +29,7 @@ export default function ProblemSection() {
             ))}
         </ul>
       </div>
-      <div className="w-[500px] h-[300px] bg-[#848484]"></div>
+      <div className="md:w-[500px] h-[300px] w-full bg-[#848484]"></div>
     </section>
   );
 }

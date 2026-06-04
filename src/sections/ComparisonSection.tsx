@@ -33,11 +33,11 @@ export default function ComparisonSection() {
     <section>
       <h2>More than visual reproduction</h2>
 
-      <div className="grid grid-cols-2 gap-10 pt-10">
+      <div className="grid gap-3 pt-10 grid-cols-1 lg:gap-10 sm:grid-cols-2">
         {comparisons.map((item) => (
           <div
             key={item.title}
-            className={`p-20 ${item.background} flex flex-col gap-6`}
+            className={`lg:p-20 p-10 ${item.background} flex flex-col gap-6`}
           >
             <h3 className="text-2xl font-bold">{item.title}</h3>
             <ul className="text-start flex flex-col gap-3">

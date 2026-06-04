@@ -13,7 +13,7 @@ export default function FeaturesSection() {
       title: "React + Tailwind Generation",
       content:
         "Convert Figma designs into React components styled with Tailwind CSS.",
-      style: "col-span-2 col-start-2",
+      style: "col-span-2 md:col-start-2",
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ export default function FeaturesSection() {
       id: 6,
       title: "Cleaner Output",
       content: "Produce code that is easier to read and customize.",
-      style: "col-span-2 col-start-2",
+      style: "col-span-2 md:col-start-2",
     },
     {
       id: 7,
@@ -58,7 +58,7 @@ export default function FeaturesSection() {
   ];
   return (
     <section>
-      <div className="grid grid-cols-6 gap-6">
+      <div className="grid md:grid-cols-6 lg:gap-6 grid-cols-1 gap-3">
         {features.map((item) => (
           <Feature key={item.id} title={item.title} content={item.content} style={item.style}/>
         ))}

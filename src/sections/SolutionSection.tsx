@@ -25,9 +25,9 @@ export default function SolutionSection() {
     },
   ];
   return (
-    <section className="flex items-center gap-3">
-      <div className="w-[50%] h-[300px] bg-[#848484]"></div>
-      <div className="text-start w-[50%] flex flex-col gap-3">
+    <section className="flex flex-col-reverse gap-3 md:items-center md:flex-row">
+      <div className="md:w-[50%] w-full h-[300px] bg-[#848484]"></div>
+      <div className="text-start md:w-[50%] flex flex-col gap-3">
         <h3 className="font-bold text-2xl">Built around layout structure</h3>
 
         <ul className="flex flex-col gap-3">
