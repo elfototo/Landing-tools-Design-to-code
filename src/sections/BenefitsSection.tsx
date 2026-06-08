@@ -51,7 +51,7 @@ export default function BenefitsSection() {
       ),
     },
     {
-      id: 2,
+      id: 4,
       title: "Works Beyond Auto Layout",
       content: "Generate code from both Auto Layout and regular Figma frames.",
       icon: (
@@ -62,7 +62,7 @@ export default function BenefitsSection() {
       ),
     },
     {
-      id: 2,
+      id: 5,
       title: "Editable Output",
       content: "Get code that is easy to understand, modify, and extend.",
       icon: (
@@ -73,7 +73,7 @@ export default function BenefitsSection() {
       ),
     },
     {
-      id: 2,
+      id: 6,
       title: "Fast Workflow",
       content: "Move from design to implementation in seconds.",
       icon: (

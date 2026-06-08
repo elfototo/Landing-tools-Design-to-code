@@ -26,9 +26,9 @@ export default function ProblemSection() {
           <h3 className="font-bold text-2xl ">
             Design-to-code should save time, not create more work
           </h3>
-          <ul className="flex flex-col gap-3">
+          <ul className="flex flex-col gap-5">
             {problem.map((item) => (
-              <li key={item.id} className="flex items-center gap-3">
+              <li key={item.id} className="flex items-center gap-5">
                 <span>
                   <BsEmojiFrownFill className="text-red-400" size={30} />
                 </span>

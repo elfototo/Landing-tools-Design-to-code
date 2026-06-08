@@ -15,7 +15,7 @@ export default function TechnologiesSection() {
       icon: <BsTypescript />,
     },
     {
-      id: 2,
+      id: 3,
       title: "Tailwind CSS",
       icon: <RiTailwindCssFill />,
     },

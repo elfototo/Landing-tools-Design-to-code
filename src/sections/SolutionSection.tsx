@@ -38,9 +38,9 @@ export default function SolutionSection() {
         <div className="text-start flex flex-col gap-3 md:w-[50%]">
           <h3 className="font-bold text-2xl">Built around layout structure</h3>
 
-          <ul className="flex flex-col gap-3">
+          <ul className="flex flex-col gap-5">
             {solutions.map((item) => (
-              <li key={item.id} className="flex gap-3 items-center">
+              <li key={item.id} className="flex gap-5 items-center">
                 <span>
                   <BsEmojiLaughingFill size={30} className="text-[#02D2B9]" />
                 </span>
