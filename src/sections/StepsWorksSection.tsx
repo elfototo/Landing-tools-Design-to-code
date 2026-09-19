@@ -43,7 +43,7 @@ export default function StepsWorksSection() {
     <section className="flex flex-col gap-10">
       <h2>How it works</h2>
 
-      <div className="relative grid grid-cols-2 gap-x-10 gap-y-10">
+      <div className="relative sm:grid grid-cols-2 gap-x-10 gap-y-10">
         {steps.map((item) => (
           <StepWork
             key={item.id}
@@ -55,10 +55,10 @@ export default function StepsWorksSection() {
         ))}
 
         {/* vertical line */}
-        <div className="pointer-events-none absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2 bg-gray-300" />
+        <div className="pointer-events-none absolute left-1/2 top-0 bottom-0 hidden w-px -translate-x-1/2 bg-gray-300 sm:block" />
 
         {/* horizontal line */}
-        <div className="pointer-events-none absolute left-0 right-0 top-1/2 h-px -translate-y-1/2 bg-gray-300" />
+        <div className="pointer-events-none absolute left-0 right-0 top-1/2 hidden h-px -translate-y-1/2 bg-gray-300 sm:block" />
       </div>
     </section>
   );

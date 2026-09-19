@@ -2,11 +2,11 @@
 
 :root {
   --text: #fff;
-  --text-h: #02D2B9;
-  --bg: #2D2D2D;
-  --accent: #02D2B9;
+  --text-h: #02d2b9;
+  --bg: #2d2d2d;
+  --accent: #02d2b9;
   --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: #02D2B9;
+  --accent-border: #02d2b9;
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
@@ -60,6 +60,10 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

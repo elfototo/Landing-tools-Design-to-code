@@ -57,7 +57,7 @@ export default function FeaturesSection() {
     },
   ];
   return (
-    <section className=" flex flex-col gap-10">
+    <section id="features" className=" flex flex-col gap-10">
       <h2>Features</h2>
       <div className="relative">
         <div className="hidden md:block absolute z-0 w-[1273px] h-[742px] shrink-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
