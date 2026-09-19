@@ -5,15 +5,11 @@ type ListFooterType = {
 const listFooter: ListFooterType[] = [
   {
     title: "Figma Plugin",
-    url: "",
-  },
-  {
-    title: "Documentation",
-    url: "",
+    url: "https://www.figma.com/community/plugin/1676909519117615210",
   },
   {
     title: "GitHub",
-    url: "",
+    url: "https://github.com/elfototo/baton",
   },
 ];
 export default function Footer() {

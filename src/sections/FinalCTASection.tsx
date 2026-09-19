@@ -11,8 +11,15 @@ export default function FinalCTASection() {
           interfaces manually.
         </p>
         <div>
-          <button className="px-6 py-2 text-white cursor-pointer bg-[#02D2B9]">
-            instal Plugin
+          <button className="px-6 py-2 text-white cursor-pointer hover:bg-[#01ac98] bg-[#02D2B9] rounded-full">
+            <a
+              href="https://www.figma.com/community/plugin/1676909519117615210"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 text-white z-10 rounded-full"
+            >
+              Try plugin
+            </a>
           </button>
         </div>
       </div>
