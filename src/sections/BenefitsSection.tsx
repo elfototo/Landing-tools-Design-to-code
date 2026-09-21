@@ -85,7 +85,7 @@ export default function BenefitsSection() {
     },
   ];
   return (
-    <section className="relative flex flex-col gap-10">
+    <section id="benefits" className="relative flex flex-col gap-10">
       <h2 className="z-10">Benefits</h2>
 
       <div className="relative">

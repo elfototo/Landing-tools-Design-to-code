@@ -22,7 +22,7 @@ export default function TechnologiesSection() {
   ];
 
   return (
-    <section className="flex flex-col gap-10">
+    <section id="stack" className="flex flex-col gap-10">
       <h2 className="font-bold text-2xl">
         Built for modern frontend workflows
       </h2>
@@ -34,7 +34,7 @@ export default function TechnologiesSection() {
             className="bg-white/5 
 backdrop-blur-xl border border-white/10 rounded-2xl shadow-lg p-3 flex gap-3 items-center"
           >
-            <span>{item.icon}</span>
+            <span >{item.icon}</span>
 
             {item.title}
           </div>

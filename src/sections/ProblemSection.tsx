@@ -19,7 +19,7 @@ export default function ProblemSection() {
     },
   ];
   return (
-    <section className="flex flex-col gap-10">
+    <section id="problem" className="flex flex-col gap-10">
       <h2>Problem</h2>
       <div className="flex gap-5 flex-col md:flex-row md:justify-between md:items-center">
         <div className="text-start flex flex-col gap-3  md:w-[50%]">

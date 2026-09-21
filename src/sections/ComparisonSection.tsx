@@ -30,7 +30,7 @@ export default function ComparisonSection() {
   ];
 
   return (
-    <section className="flex flex-col gap-10">
+    <section id="comparison" className="flex flex-col gap-10">
       <div>
         <h2 className="">Comparison</h2>
         <p>More than visual reproduction</p>

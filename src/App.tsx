@@ -14,7 +14,7 @@ import "./index.css";
 
 function App() {
   return (
-    <main className="flex flex-col gap-30 mx-3 scroll-smooth">
+    <main className="flex flex-col gap-30 mx-3 scroll-smooth relative">
       <div className="pt-10">
         <Navbar />
       </div>

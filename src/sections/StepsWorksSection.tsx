@@ -40,7 +40,7 @@ export default function StepsWorksSection() {
   ];
 
   return (
-    <section className="flex flex-col gap-10">
+    <section id="steps" className="flex flex-col gap-10">
       <h2>How it works</h2>
 
       <div className="relative sm:grid grid-cols-2 gap-x-10 gap-y-10">
